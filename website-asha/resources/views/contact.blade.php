@@ -5,12 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Home</title>
+    <title>Contact</title>
     <!-- Add Tailwind CSS via CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body class="bg-gray-100 flex flex-col min-h-screen">
+<body class="bg-gray-100">
     <header class="flex justify-between items-center py-6 px-8 bg-gray-800 text-white">
         <!-- Clickable Home Icon on the left that redirects to the welcome page -->
         <div class="flex items-center">
@@ -55,16 +55,6 @@
         </nav>
         @endif
     </header>
-
-    <!-- Centered Title and Description, positioned closer to the top -->
-    <main class="flex-grow flex flex-col items-center justify-center mt-4 text-center"> 
-        <h1 class="text-6xl font-extrabold text-gray-800 mb-4"> <!-- Increased weight and added margin-bottom -->
-            Stichting Asha
-        </h1>
-        <p class="mt-4 text-gray-600 text-lg max-w-2xl px-4 leading-relaxed"> <!-- Added max-width and leading -->
-            Stichting Asha (Asha = Hoop in het Hindi) is een vrijwilligersorganisatie van Surinaamse Hindostanen in de gemeente Utrecht. De organisatie is in 1976 opgericht en wil met haar activiteiten een positieve bijdrage leveren aan het gemeentelijke integratie- en participatiebeleid.
-        </p>
-    </main>
 </body>
 
 </html>
